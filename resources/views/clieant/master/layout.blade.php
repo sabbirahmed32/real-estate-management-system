@@ -45,12 +45,20 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="properties.html">Properties</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="agents.html">Agents</a></li>
-          <li><a href="blog.html">Blog</a></li>
+          <li><a href="{{route('index.data')}}" class="active">Home</a></li>
+          <li><a href="{{route('about.data')}}">About</a></li>
+          <li class="dropdown"><a href="#"><span>Properties</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+            <li><a href="{{route('properties.data')}}">Properties</a></li>
+            <li><a href="property-details.html">Property Details</a></li>
+            </ul>
+          </li>
+
+          <li><a href="{{route('services.data')}}">Services</a></li>
+          <li><a href="{{route('agents.data')}}">Agents</a></li>
+          <li><a href="{{route('blog.data')}}">Blog</a></li>
+
+
           <li class="dropdown"><a href="#"><span>More Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="property-details.html">Property Details</a></li>
