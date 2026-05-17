@@ -50,51 +50,35 @@
           <li class="dropdown"><a href="#"><span>Properties</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
             <li><a href="{{route('properties.data')}}">Properties</a></li>
-            <li><a href="property-details.html">Property Details</a></li>
+            <li><a href="{{route('properties.details')}}">Property Details</a></li>
             </ul>
           </li>
-
-          <li><a href="{{route('services.data')}}">Services</a></li>
-          <li><a href="{{route('agents.data')}}">Agents</a></li>
-          <li><a href="{{route('blog.data')}}">Blog</a></li>
-
-
-          <li class="dropdown"><a href="#"><span>More Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+         <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="property-details.html">Property Details</a></li>
-              <li><a href="service-details.html">Service Details</a></li>
-              <li><a href="agent-profile.html">Agent Profile</a></li>
-              <li><a href="blog-details.html">Blog Details</a></li>
-              <li><a href="terms.html">Terms</a></li>
-              <li><a href="privacy.html">Privacy</a></li>
-              <li><a href="404.html">404</a></li>
+            <li><a href="{{route('services.data')}}">Services</a></li>
+            <li><a href="{{route('services.details')}}">Service Details</a></li>
             </ul>
           </li>
-
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+         <li class="dropdown"><a href="#"><span>Agents</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
+            <li><a href="{{route('agents.data')}}">Agents</a></li>
+            <li><a href="{{route('agents.profile')}}">Agents Profile</a></li>
             </ul>
           </li>
-          <li><a href="contact.html">Contact</a></li>
+         <li class="dropdown"><a href="#"><span>Blog</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+            <li><a href="{{route('blog.data')}}">Blog</a></li>
+            <li><a href="{{route('blog.details')}}">Blog Details</a></li>
+            </ul>
+          </li>
+          <li><a href="{{route('contact.data')}}">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
     </div>
   </header>
+
   @yield('contain')
 
 

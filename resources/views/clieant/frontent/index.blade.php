@@ -110,7 +110,7 @@
               <div class="hero-visual" data-aos="fade-left" data-aos-delay="400">
                 <div class="visual-container">
                   <div class="featured-property">
-                    <img src="assets/img/real-estate/property-exterior-8.webp" alt="Featured Property" class="img-fluid">
+                    <img src="{{asset('clieant/assets/img/real-estate/property-exterior-8.webp')}}" alt="Featured Property" class="img-fluid">
                     <div class="property-info">
                       <div class="property-price">$925,000</div>
                       <div class="property-details">
@@ -122,16 +122,16 @@
 
                   <div class="overlay-images">
                     <div class="overlay-img overlay-1">
-                      <img src="assets/img/real-estate/property-interior-4.webp" alt="Interior View" class="img-fluid">
+                      <img src="{{asset('clieant/assets/img/real-estate/property-interior-4.webp')}}" alt="Interior View" class="img-fluid">
                     </div>
                     <div class="overlay-img overlay-2">
-                      <img src="assets/img/real-estate/property-exterior-2.webp" alt="Exterior View" class="img-fluid">
+                      <img src="{{asset('clieant/assets/img/real-estate/property-exterior-2.webp')}}" alt="Exterior View" class="img-fluid">
                     </div>
                   </div>
 
                   <div class="agent-card">
                     <div class="agent-profile">
-                      <img src="assets/img/real-estate/agent-7.webp" alt="Agent Profile" class="agent-photo">
+                      <img src="{{asset('clieant/assets/img/real-estate/agent-7.webp')}}" alt="Agent Profile" class="agent-photo">
                       <div class="agent-info">
                         <h4>Michael Chen</h4>
                         <p>Senior Property Advisor</p>
@@ -172,7 +172,7 @@
           <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="200">
             <div class="image-gallery">
               <div class="primary-image">
-                <img src="assets/img/real-estate/property-exterior-1.webp" alt="Modern Property" class="img-fluid">
+                <img src="{{asset('clieant/assets/img/real-estate/property-exterior-1.webp')}}" alt="Modern Property" class="img-fluid">
                 <div class="experience-badge">
                   <div class="badge-content">
                     <div class="number"><span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>+</div>
@@ -181,7 +181,7 @@
                 </div>
               </div>
               <div class="secondary-image">
-                <img src="assets/img/real-estate/property-interior-4.webp" alt="Luxury Interior" class="img-fluid">
+                <img src="{{asset('clieant/assets/img/real-estate/property-interior-4.webp')}}" alt="Luxury Interior" class="img-fluid">
               </div>
             </div>
           </div>
@@ -248,7 +248,7 @@
 
             <div class="featured-property-main" data-aos="zoom-in" data-aos-delay="200">
               <div class="property-hero">
-                <img src="assets/img/real-estate/property-exterior-4.webp" alt="Luxury Estate" class="img-fluid">
+                <img src="{{asset('clieant/assets/img/real-estate/property-exterior-4.webp')}}" alt="Luxury Estate" class="img-fluid">
                 <div class="property-overlay">
                   <div class="property-badge-main premium">Premium</div>
                   <div class="property-stats">
@@ -298,7 +298,7 @@
 
               <div class="sidebar-property-card" data-aos="fade-left" data-aos-delay="300">
                 <div class="sidebar-property-image">
-                  <img src="assets/img/real-estate/property-exterior-1.webp" alt="Modern Condo" class="img-fluid">
+                  <img src="{{asset('clieant/assets/img/real-estate/property-exterior-1.webp')}}" alt="Modern Condo" class="img-fluid">
                   <div class="sidebar-property-badge hot">Hot Deal</div>
                 </div>
                 <div class="sidebar-property-content">
@@ -321,7 +321,7 @@
 
               <div class="sidebar-property-card" data-aos="fade-left" data-aos-delay="400">
                 <div class="sidebar-property-image">
-                  <img src="assets/img/real-estate/property-exterior-9.webp" alt="Family Home" class="img-fluid">
+                  <img src="{{asset('clieant/assets/img/real-estate/property-exterior-9.webp')}}" alt="Family Home" class="img-fluid">
                   <div class="sidebar-property-badge new">New Listing</div>
                 </div>
                 <div class="sidebar-property-content">
@@ -353,7 +353,7 @@
           <div class="col-xl-6" data-aos="fade-up" data-aos-delay="600">
             <div class="property-card-horizontal">
               <div class="property-image-horizontal">
-                <img src="assets/img/real-estate/property-interior-5.webp" alt="Penthouse" class="img-fluid">
+                <img src="{{asset('clieant/assets/img/real-estate/property-interior-5.webp')}}" alt="Penthouse" class="img-fluid">
                 <div class="property-badge-horizontal exclusive">Exclusive</div>
               </div>
               <div class="property-content-horizontal">
@@ -379,7 +379,7 @@
           <div class="col-xl-6" data-aos="fade-up" data-aos-delay="700">
             <div class="property-card-horizontal">
               <div class="property-image-horizontal">
-                <img src="assets/img/real-estate/property-interior-8.webp" alt="Modern Home" class="img-fluid">
+                <img src="{{asset('clieant/assets/img/real-estate/property-interior-8.webp')}}" alt="Modern Home" class="img-fluid">
                 <div class="property-badge-horizontal new">New</div>
               </div>
               <div class="property-content-horizontal">
@@ -440,7 +440,7 @@
                 </a>
               </div>
               <div class="service-visual">
-                <img src="assets/img/real-estate/property-interior-2.webp" class="img-fluid" alt="Property Search" loading="lazy">
+                <img src="{{asset('clieant/assets/img/real-estate/property-interior-2.webp')}}" class="img-fluid" alt="Property Search" loading="lazy">
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -464,7 +464,7 @@
                 </a>
               </div>
               <div class="service-visual">
-                <img src="assets/img/real-estate/property-exterior-1.webp" class="img-fluid" alt="Property Valuation" loading="lazy">
+                <img src="{{asset('clieant/assets/img/real-estate/property-exterior-1.webp')}}" class="img-fluid" alt="Property Valuation" loading="lazy">
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -492,7 +492,7 @@
                 </a>
               </div>
               <div class="service-visual">
-                <img src="assets/img/real-estate/property-interior-8.webp" class="img-fluid" alt="Property Rental" loading="lazy">
+                <img src="{{asset('clieant/assets/img/real-estate/property-interior-8.webp')}}" class="img-fluid" alt="Property Rental" loading="lazy">
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -516,7 +516,7 @@
                 </a>
               </div>
               <div class="service-visual">
-                <img src="assets/img/real-estate/property-exterior-4.webp" class="img-fluid" alt="Investment Advisory" loading="lazy">
+                <img src="{{asset('clieant/assets/img/real-estate/property-exterior-4.webp')}}" class="img-fluid" alt="Investment Advisory" loading="lazy">
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -551,7 +551,7 @@
             <div class="featured-agent">
               <div class="agent-wrapper">
                 <div class="agent-photo">
-                  <img src="assets/img/real-estate/agent-3.webp" alt="Featured Agent" class="img-fluid">
+                  <img src="{{asset('clieant/assets/img/real-estate/agent-3.webp')}}" alt="Featured Agent" class="img-fluid">
                   <div class="overlay-info">
                     <div class="contact-actions">
                       <a href="" class="contact-btn phone" title="Call Now">
@@ -585,7 +585,7 @@
             <div class="featured-agent">
               <div class="agent-wrapper">
                 <div class="agent-photo">
-                  <img src="assets/img/real-estate/agent-7.webp" alt="Featured Agent" class="img-fluid">
+                  <img src="{{asset('clieant/assets/img/real-estate/agent-7.webp')}}" alt="Featured Agent" class="img-fluid">
                   <div class="overlay-info">
                     <div class="contact-actions">
                       <a href="" class="contact-btn phone" title="Call Now">
@@ -619,7 +619,7 @@
             <div class="featured-agent">
               <div class="agent-wrapper">
                 <div class="agent-photo">
-                  <img src="assets/img/real-estate/agent-5.webp" alt="Featured Agent" class="img-fluid">
+                  <img src="{{asset('clieant/assets/img/real-estate/agent-5.webp')}}" alt="Featured Agent" class="img-fluid">
                   <div class="overlay-info">
                     <div class="contact-actions">
                       <a href="" class="contact-btn phone" title="Call Now">
@@ -653,7 +653,7 @@
             <div class="featured-agent">
               <div class="agent-wrapper">
                 <div class="agent-photo">
-                  <img src="assets/img/real-estate/agent-9.webp" alt="Featured Agent" class="img-fluid">
+                  <img src="{{asset('clieant/assets/img/real-estate/agent-9.webp')}}" alt="Featured Agent" class="img-fluid">
                   <div class="overlay-info">
                     <div class="contact-actions">
                       <a href="" class="contact-btn phone" title="Call Now">
@@ -713,7 +713,7 @@
             <div class="testimonial-card">
               <div class="testimonial-header">
                 <div class="testimonial-image">
-                  <img src="assets/img/person/person-f-5.webp" class="img-fluid" alt="Testimonial 1">
+                  <img src="{{asset('clieant/assets/img/person/person-f-5.webp')}}" class="img-fluid" alt="Testimonial 1">
                 </div>
                 <div class="testimonial-meta">
                   <h3>Sophia Martinez</h3>
@@ -734,7 +734,7 @@
             <div class="testimonial-card">
               <div class="testimonial-header">
                 <div class="testimonial-image">
-                  <img src="assets/img/person/person-m-5.webp" class="img-fluid" alt="Testimonial 2">
+                  <img src="{{asset('clieant/assets/img/person/person-m-5.webp')}}" class="img-fluid" alt="Testimonial 2">
                 </div>
                 <div class="testimonial-meta">
                   <h3>Alexander Wright</h3>
@@ -755,7 +755,7 @@
             <div class="testimonial-card">
               <div class="testimonial-header">
                 <div class="testimonial-image">
-                  <img src="assets/img/person/person-f-6.webp" class="img-fluid" alt="Testimonial 3">
+                  <img src="{{asset('clieant/assets/img/person/person-f-6.webp')}}" class="img-fluid" alt="Testimonial 3">
                 </div>
                 <div class="testimonial-meta">
                   <h3>Isabella Kim</h3>
@@ -776,7 +776,7 @@
             <div class="testimonial-card">
               <div class="testimonial-header">
                 <div class="testimonial-image">
-                  <img src="assets/img/person/person-m-6.webp" class="img-fluid" alt="Testimonial 4">
+                  <img src="{{asset('clieant/assets/img/person/person-m-6.webp')}}" class="img-fluid" alt="Testimonial 4">
                 </div>
                 <div class="testimonial-meta">
                   <h3>James Cooper</h3>
@@ -929,7 +929,7 @@
                   </div>
                   <p>"Working with this team made buying our first home a seamless experience. Their knowledge of the local market and dedication to finding the perfect property exceeded our expectations."</p>
                   <div class="testimonial-author d-flex align-items-center mt-3">
-                    <img src="assets/img/person/person-f-3.webp" alt="Client" class="author-image me-3">
+                    <img src="{{asset('clieant/assets/img/person/person-f-3.webp')}}" alt="Client" class="author-image me-3">
                     <div>
                       <h6>Sarah Martinez</h6>
                       <span>First-time Homebuyer</span>
@@ -1002,7 +1002,7 @@
           <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
             <article class="featured-post">
               <div class="featured-img">
-                <img src="assets/img/blog/blog-post-7.webp" alt="" class="img-fluid" loading="lazy">
+                <img src="{{asset('clieant/assets/img/blog/blog-post-7.webp')}}" alt="" class="img-fluid" loading="lazy">
                 <div class="featured-badge">Featured</div>
               </div>
 
@@ -1022,7 +1022,7 @@
 
                 <div class="post-footer">
                   <div class="author-info">
-                    <img src="assets/img/person/person-m-8.webp" alt="" class="author-avatar">
+                    <img src="{{asset('clieant/assets/img/person/person-m-8.webp')}}" alt="" class="author-avatar">
                     <div class="author-details">
                       <span class="author-name">Marcus Johnson</span>
                       <span class="read-time">5 min read</span>
@@ -1035,7 +1035,7 @@
 
             <article class="featured-post" data-aos="fade-up" data-aos-delay="400">
               <div class="featured-img">
-                <img src="assets/img/blog/blog-post-3.webp" alt="" class="img-fluid" loading="lazy">
+                <img src="{{asset('clieant/assets/img/blog/blog-post-3.webp')}}" alt="" class="img-fluid" loading="lazy">
                 <div class="featured-badge">Featured</div>
               </div>
 
@@ -1055,7 +1055,7 @@
 
                 <div class="post-footer">
                   <div class="author-info">
-                    <img src="assets/img/person/person-f-7.webp" alt="" class="author-avatar">
+                    <img src="{{asset('clieant/assets/img/person/person-f-7.webp')}}" alt="" class="author-avatar">
                     <div class="author-details">
                       <span class="author-name">Emma Rodriguez</span>
                       <span class="read-time">7 min read</span>
@@ -1071,7 +1071,7 @@
 
             <article class="recent-post" data-aos="fade-up" data-aos-delay="200">
               <div class="recent-img">
-                <img src="assets/img/blog/blog-post-5.webp" alt="" class="img-fluid" loading="lazy">
+                <img src="{{asset('clieant/assets/img/blog/blog-post-5.webp')}}" alt="" class="img-fluid" loading="lazy">
               </div>
               <div class="recent-content">
                 <a href="#" class="category">Business</a>
@@ -1087,7 +1087,7 @@
 
             <article class="recent-post" data-aos="fade-up" data-aos-delay="250">
               <div class="recent-img">
-                <img src="assets/img/blog/blog-post-9.webp" alt="" class="img-fluid" loading="lazy">
+                <img src="{{asset('clieant/assets/img/blog/blog-post-9.webp')}}" alt="" class="img-fluid" loading="lazy">
               </div>
               <div class="recent-content">
                 <a href="#" class="category">Marketing</a>
@@ -1103,7 +1103,7 @@
 
             <article class="recent-post" data-aos="fade-up" data-aos-delay="300">
               <div class="recent-img">
-                <img src="assets/img/blog/blog-post-6.webp" alt="" class="img-fluid" loading="lazy">
+                <img src="{{asset('clieant/assets/img/blog/blog-post-6.webp')}}" alt="" class="img-fluid" loading="lazy">
               </div>
               <div class="recent-content">
                 <a href="#" class="category">Design</a>
@@ -1119,7 +1119,7 @@
 
             <article class="recent-post" data-aos="fade-up" data-aos-delay="350">
               <div class="recent-img">
-                <img src="assets/img/blog/blog-post-8.webp" alt="" class="img-fluid" loading="lazy">
+                <img src="{{asset('clieant/assets/img/blog/blog-post-8.webp')}}" alt="" class="img-fluid" loading="lazy">
               </div>
               <div class="recent-content">
                 <a href="#" class="category">Tech</a>
