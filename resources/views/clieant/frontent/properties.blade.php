@@ -122,7 +122,7 @@
                 <div class="property-item">
                   <a href="property-details.html" class="property-link">
                     <div class="property-image-wrapper">
-                      <img src="assets/img/real-estate/property-exterior-2.webp" alt="Luxury Villa" class="img-fluid">
+                      <img src="{{asset('clieant/assets/img/real-estate/property-exterior-2.webp')}}" alt="Luxury Villa" class="img-fluid">
                       <div class="property-status">
                         <span class="status-badge featured">Featured</span>
                         <span class="status-badge sale">For Sale</span>
@@ -168,7 +168,7 @@
                     </a>
                     <div class="property-agent-info"><a href="property-details.html" class="property-link">
                         <div class="agent-avatar">
-                          <img src="assets/img/real-estate/agent-2.webp" alt="Agent">
+                          <img src="{{asset('clieant/assets/img/real-estate/agent-2.webp')}}" alt="Agent">
                         </div>
                         <div class="agent-details">
                           <strong>Jennifer Miller</strong>
@@ -190,7 +190,7 @@
                 <div class="property-item">
                   <a href="property-details.html" class="property-link">
                     <div class="property-image-wrapper">
-                      <img src="assets/img/real-estate/property-interior-1.webp" alt="Modern Apartment" class="img-fluid">
+                      <img src="{{asset('clieant/assets/img/real-estate/property-interior-1.webp')}}" alt="Modern Apartment" class="img-fluid">
                       <div class="property-status">
                         <span class="status-badge new">New Listing</span>
                         <span class="status-badge rent">For Rent</span>
@@ -236,7 +236,7 @@
                     </a>
                     <div class="property-agent-info"><a href="property-details.html" class="property-link">
                         <div class="agent-avatar">
-                          <img src="assets/img/real-estate/agent-4.webp" alt="Agent">
+                          <img src="{{asset('clieant/assets/img/real-estate/agent-4.webp')}}" alt="Agent">
                         </div>
                         <div class="agent-details">
                           <strong>Robert Thompson</strong>
@@ -258,7 +258,7 @@
                 <div class="property-item">
                   <a href="property-details.html" class="property-link">
                     <div class="property-image-wrapper">
-                      <img src="assets/img/real-estate/property-exterior-5.webp" alt="Family Home" class="img-fluid">
+                      <img src="{{asset('clieant/assets/img/real-estate/property-exterior-5.webp')}}" alt="Family Home" class="img-fluid">
                       <div class="property-status">
                         <span class="status-badge sale">For Sale</span>
                       </div>
@@ -303,7 +303,7 @@
                     </a>
                     <div class="property-agent-info"><a href="property-details.html" class="property-link">
                         <div class="agent-avatar">
-                          <img src="assets/img/real-estate/agent-6.webp" alt="Agent">
+                          <img src="{{asset('clieant/assets/img/real-estate/agent-6.webp')}}" alt="Agent">
                         </div>
                         <div class="agent-details">
                           <strong>Lisa Anderson</strong>
@@ -325,7 +325,7 @@
                 <div class="property-item">
                   <a href="property-details.html" class="property-link">
                     <div class="property-image-wrapper">
-                      <img src="assets/img/real-estate/property-interior-6.webp" alt="Studio Loft" class="img-fluid">
+                      <img src="{{asset('clieant/assets/img/real-estate/property-interior-6.webp')}}" alt="Studio Loft" class="img-fluid">
                       <div class="property-status">
                         <span class="status-badge open">Open House</span>
                         <span class="status-badge rent">For Rent</span>
@@ -371,7 +371,7 @@
                     </a>
                     <div class="property-agent-info"><a href="property-details.html" class="property-link">
                         <div class="agent-avatar">
-                          <img src="assets/img/real-estate/agent-8.webp" alt="Agent">
+                          <img src="{{asset('clieant/assets/img/real-estate/agent-8.webp')}}" alt="Agent">
                         </div>
                         <div class="agent-details">
                           <strong>Marcus Johnson</strong>
@@ -393,7 +393,7 @@
                 <div class="property-item">
                   <a href="property-details.html" class="property-link">
                     <div class="property-image-wrapper">
-                      <img src="assets/img/real-estate/property-exterior-7.webp" alt="Townhouse" class="img-fluid">
+                      <img src="{{asset('clieant/assets/img/real-estate/property-exterior-7.webp')}}" alt="Townhouse" class="img-fluid">
                       <div class="property-status">
                         <span class="status-badge sale">For Sale</span>
                       </div>
@@ -438,7 +438,7 @@
                     </a>
                     <div class="property-agent-info"><a href="property-details.html" class="property-link">
                         <div class="agent-avatar">
-                          <img src="assets/img/real-estate/agent-9.webp" alt="Agent">
+                          <img src="{{asset('clieant/assets/img/real-estate/agent-9.webp')}}" alt="Agent">
                         </div>
                         <div class="agent-details">
                           <strong>Sofia Martinez</strong>
@@ -460,7 +460,7 @@
                 <div class="property-item">
                   <a href="property-details.html" class="property-link">
                     <div class="property-image-wrapper">
-                      <img src="assets/img/real-estate/property-interior-8.webp" alt="Condo" class="img-fluid">
+                      <img src="{{asset('clieant/assets/img/real-estate/property-interior-8.webp')}}" alt="Condo" class="img-fluid">
                       <div class="property-status">
                         <span class="status-badge reduced">Price Reduced</span>
                         <span class="status-badge sale">For Sale</span>
@@ -506,7 +506,7 @@
                     </a>
                     <div class="property-agent-info"><a href="property-details.html" class="property-link">
                         <div class="agent-avatar">
-                          <img src="assets/img/real-estate/agent-10.webp" alt="Agent">
+                          <img src="{{asset('clieant/assets/img/real-estate/agent-10.webp')}}" alt="Agent">
                         </div>
                         <div class="agent-details">
                           <strong>James Wilson</strong>
@@ -536,7 +536,7 @@
                     <div class="row align-items-center">
                       <div class="col-lg-4">
                         <div class="property-image-wrapper">
-                          <img src="assets/img/real-estate/property-exterior-2.webp" alt="Luxury Villa" class="img-fluid">
+                          <img src="{{asset('clieant/assets/img/real-estate/property-exterior-2.webp')}}" alt="Luxury Villa" class="img-fluid">
                           <div class="property-status">
                             <span class="status-badge featured">Featured</span>
                           </div>
@@ -564,7 +564,7 @@
                                   <span><i class="bi bi-arrows-angle-expand"></i> 3,400 sq ft</span>
                                 </div>
                                 <div class="property-agent">
-                                  <img src="assets/img/real-estate/agent-2.webp" alt="Agent" class="agent-avatar">
+                                  <img src="{{asset('clieant/assets/img/real-estate/agent-2.webp')}}" alt="Agent" class="agent-avatar">
                                   <span>Jennifer Miller, Prime Realty Group</span>
                                 </div>
                               </div>
@@ -599,7 +599,7 @@
                     <div class="row align-items-center">
                       <div class="col-lg-4">
                         <div class="property-image-wrapper">
-                          <img src="assets/img/real-estate/property-interior-1.webp" alt="Modern Apartment" class="img-fluid">
+                          <img src="{{asset('clieant/assets/img/real-estate/property-interior-1.webp')}}" alt="Modern Apartment" class="img-fluid">
                           <div class="property-status">
                             <span class="status-badge new">New</span>
                           </div>
@@ -627,7 +627,7 @@
                                   <span><i class="bi bi-arrows-angle-expand"></i> 2,100 sq ft</span>
                                 </div>
                                 <div class="property-agent">
-                                  <img src="assets/img/real-estate/agent-4.webp" alt="Agent" class="agent-avatar">
+                                  <img src="{{asset('assets/img/real-estate/agent-4.webp')}}" alt="Agent" class="agent-avatar">
                                   <span>Robert Thompson, Urban Living Realty</span>
                                 </div>
                               </div>
@@ -662,7 +662,7 @@
                     <div class="row align-items-center">
                       <div class="col-lg-4">
                         <div class="property-image-wrapper">
-                          <img src="assets/img/real-estate/property-exterior-5.webp" alt="Family Home" class="img-fluid">
+                          <img src="{{asset('assets/img/real-estate/property-exterior-5.webp')}}" alt="Family Home" class="img-fluid">
                           <div class="property-status">
                             <span class="status-badge sale">For Sale</span>
                           </div>
@@ -690,7 +690,7 @@
                                   <span><i class="bi bi-arrows-angle-expand"></i> 2,650 sq ft</span>
                                 </div>
                                 <div class="property-agent">
-                                  <img src="assets/img/real-estate/agent-6.webp" alt="Agent" class="agent-avatar">
+                                  <img src="{{asset('clieant/assets/img/real-estate/agent-6.webp')}}" alt="Agent" class="agent-avatar">
                                   <span>Lisa Anderson, Texas Home Solutions</span>
                                 </div>
                               </div>

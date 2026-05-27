@@ -10,7 +10,7 @@
         <h1 class="mb-2 mb-lg-0">About</h1>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="{{route('index.data')}}">Home</a></li>
             <li class="current">About</li>
           </ol>
         </nav>
@@ -34,7 +34,7 @@
               <div class="row g-4 align-items-center">
                 <div class="col-lg-6">
                   <div class="primary-image-wrap">
-                    <img src="assets/img/real-estate/property-exterior-4.webp" alt="Luxury Property" class="img-fluid">
+                    <img src="{{asset('clieant/assets/img/real-estate/property-exterior-4.webp')}}" alt="Luxury Property" class="img-fluid">
                     <div class="floating-badge" data-aos="zoom-in" data-aos-delay="400">
                       <div class="badge-content">
                         <i class="bi bi-award"></i>
@@ -45,7 +45,7 @@
                 </div>
                 <div class="col-lg-6">
                   <div class="secondary-image-wrap">
-                    <img src="assets/img/real-estate/agent-3.webp" alt="Professional Agent" class="img-fluid">
+                    <img src="{{asset('clieant/assets/img/real-estate/agent-3.webp')}}" alt="Professional Agent" class="img-fluid">
                   </div>
                 </div>
               </div>
@@ -168,7 +168,7 @@
                 </blockquote>
                 <div class="testimonial-author">
                   <div class="author-image">
-                    <img src="assets/img/person/person-f-8.webp" alt="Client" class="img-fluid">
+                    <img src="{{asset('clieant/assets/img/person/person-f-8.webp')}}" alt="Client" class="img-fluid">
                   </div>
                   <div class="author-info">
                     <h5>Jennifer Rodriguez</h5>
