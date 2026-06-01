@@ -20982,4 +20982,19 @@ blockquote.blockquote cite::before {
     }
 }
 
+
+
+.menu-arrow > .menu-link {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.menu-arrow > .menu-link::after {
+    content: "\f107" !important;
+    font-family: "Font Awesome 6 Free" !important;
+    font-weight: 900 !important;
+    margin-left: auto !important;
+    display: inline-block !important;
+    color: #6c757d !important;
+}
 /*# sourceMappingURL=styles.css.map */
