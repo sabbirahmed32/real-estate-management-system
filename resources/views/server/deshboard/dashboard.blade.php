@@ -1,7 +1,7 @@
 @extends('server.layout.master')
 @section('contain')
 
-    
+
         <main class="app-wrapper">
             <div class="container-fluid">
                 <div class="app-page-head d-flex flex-wrap gap-3 align-items-center justify-content-between">
@@ -68,7 +68,7 @@
                                                 </div>
                                                 <div
                                                     class="avatar avatar-md rounded-2 bg-secondary-subtle text-secondary">
-                                                    <i class="fi fi-rr-mortgage"></i>
+                                                    <i class="fi fi-rr-building"></i>
                                                 </div>
                                             </div>
                                         </div>
@@ -117,7 +117,7 @@
                                         <div class="d-flex align-items-center mb-3">
                                             <div
                                                 class="avatar avatar-md rounded-2 bg-secondary-subtle text-secondary me-2">
-                                                <i class="fi fi-rr-mortgage"></i>
+                                                <i class="fa-solid fa-house"></i>
                                             </div>
                                             <h2 class="fw-bold mb-0 me-2">1,024</h2>
                                             <span class="badge badge-sm bg-success-subtle text-success">+5%</span>
@@ -158,7 +158,7 @@
                                     <div class="card-body d-flex align-items-end justify-content-between pb-0">
                                         <div class="d-flex align-items-center mb-3">
                                             <div class="avatar avatar-md rounded-2 bg-info-subtle text-info me-2">
-                                                <i class="fi fi-rr-heart-partner-handshake"></i>
+                                                <i class="fa-solid fa-handshake"></i>
                                             </div>
                                             <h2 class="fw-bold mb-0 me-2">524</h2>
                                             <span class="badge badge-sm bg-danger-subtle text-danger">-2.1%</span>
@@ -169,7 +169,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xxl-6">
+                    {{-- <div class="col-xxl-6">
                         <div class="card">
                             <div class="card-header border-0 pb-0 d-flex align-items-center justify-content-between">
                                 <h6 class="card-title mb-0">Property Sales</h6>
@@ -202,9 +202,10 @@
                                 <div id="PropertySalesChart" class="mb-n3"></div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
-                    <div class="col-xxl-6">
+
+                    {{-- <div class="col-xxl-6">
                         <div class="card">
                             <div class="card-header border-0 pb-0 d-flex align-items-center justify-content-between">
                                 <h6 class="card-title mb-0">Revenue Overview</h6>
@@ -239,7 +240,7 @@
                                 <div id="RevenueChart"></div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
                     <div class="col-xxl-8">
                         <div class="card">

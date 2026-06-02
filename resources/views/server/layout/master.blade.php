@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+{{-- <head>
 
     <!-- Meta -->
     <meta charset="UTF-8">
@@ -45,6 +45,68 @@
     <!-- Flaticon UIcons -->
     <link rel="stylesheet"
         href="https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-rounded/css/uicons-bold-rounded.css">
+
+    <!-- Lucide Icons -->
+    <link rel="stylesheet"
+        href="https://unpkg.com/lucide-static@latest/font/lucide.css">
+
+    <!-- Simplebar -->
+    <link rel="stylesheet"
+        href="{{ asset('assets/libs/simplebar/simplebar.css') }}">
+
+    <!-- Bootstrap Select -->
+    <link rel="stylesheet"
+        href="{{ asset('assets/libs/bootstrap-select/css/bootstrap-select.min.css') }}">
+
+    <!-- Jsvector Map -->
+    <link rel="stylesheet"
+        href="{{ asset('assets/libs/jsvectormap/jsvectormap.min.css') }}">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet"
+        href="{{ asset('assets/css/styles.css') }}">
+
+</head> --}}
+<head>
+
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title>UrbanHub | Real Estate Management Admin Dashboard Template</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png"
+        href="{{ asset('assets/images/favicon.png') }}">
+
+    <link rel="apple-touch-icon" sizes="180x180"
+        href="{{ asset('assets/images/apple-touch-icon.png') }}">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+        href="{{ asset('assets/libs/bootstrap/css/bootstrap.min.css') }}">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Remix Icon -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css">
+
+    <!-- Flaticon UIcons Regular Rounded -->
+    <link rel="stylesheet"
+        href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
 
     <!-- Lucide Icons -->
     <link rel="stylesheet"

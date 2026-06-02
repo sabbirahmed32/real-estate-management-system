@@ -24,17 +24,17 @@
                         </a>
                         <ul class="menu-inner">
                             <li class="menu-item">
-                                <a class="menu-link" href="index.html">
+                                <a class="menu-link" href="{{route('dashboard.data')}}">
                                     <span class="menu-label">Dashboard</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="index-2.html">
+                                <a class="menu-link" href="{{route('agent.dashboard')}}">
                                     <span class="menu-label">Agent Dashboard</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="index-3.html">
+                                <a class="menu-link" href="{{route('analytics.dashboard')}}">
                                     <span class="menu-label">Analytics Dashboard</span>
                                 </a>
                             </li>

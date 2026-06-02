@@ -20,4 +20,7 @@ Route::get('/contact', [frontentController::class, 'contact'])->name('contact.da
 
 
 // Server side route
-Route::get('/admin/dashboard/analytics', [BackendController::class, 'dashboard'])->name('dashboard.data');
+Route::get('/admin/dashboard', [BackendController::class, 'dashboard'])->name('dashboard.data');
+Route::get('/agent/dashboard', [BackendController::class, 'agentDashboard'])->name('agent.dashboard');
+Route::get('/analytics/dashboard', [BackendController::class, 'analyticsDashboard'])->name('analytics.dashboard');
+
