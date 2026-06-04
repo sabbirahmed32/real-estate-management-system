@@ -26,7 +26,7 @@
           <div class="col-lg-8">
             <!-- Featured Article -->
             <article class="featured-post position-relative mb-4" data-aos="fade-up">
-              <img src="assets/img/blog/blog-hero-9.webp" alt="Featured post" class="img-fluid">
+              <img src="{{asset('clieant/assets/img/blog/blog-hero-9.webp')}}" alt="Featured post" class="img-fluid">
               <div class="post-overlay">
                 <div class="post-content">
                   <div class="post-meta">
@@ -50,7 +50,7 @@
               <div class="col-md-6">
                 <article class="secondary-post" data-aos="fade-up">
                   <div class="post-image">
-                    <img src="assets/img/blog/blog-post-1.webp" alt="Post" class="img-fluid">
+                    <img src="{{asset('clieant/assets/img/blog/blog-post-1.webp')}}" alt="Post" class="img-fluid">
                   </div>
                   <div class="post-content">
                     <div class="post-meta">
@@ -70,7 +70,7 @@
               <div class="col-md-6">
                 <article class="secondary-post" data-aos="fade-up" data-aos-delay="100">
                   <div class="post-image">
-                    <img src="assets/img/blog/blog-post-2.webp" alt="Post" class="img-fluid">
+                    <img src="{{asset('clieant/assets/img/blog/blog-post-2.webp')}}" alt="Post" class="img-fluid">
                   </div>
                   <div class="post-content">
                     <div class="post-meta">
@@ -111,7 +111,7 @@
                   <article class="tab-post">
                     <div class="row g-0 align-items-center">
                       <div class="col-4">
-                        <img src="assets/img/blog/blog-post-square-1.webp" alt="Post" class="img-fluid">
+                        <img src="{{asset('clieant/assets/img/blog/blog-post-square-1.webp')}}" alt="Post" class="img-fluid">
                       </div>
                       <div class="col-8">
                         <div class="post-content">
@@ -126,7 +126,7 @@
                   <article class="tab-post">
                     <div class="row g-0 align-items-center">
                       <div class="col-4">
-                        <img src="assets/img/blog/blog-post-square-2.webp" alt="Post" class="img-fluid">
+                        <img src="{{asset('clieant/assets/img/blog/blog-post-square-2.webp')}}" alt="Post" class="img-fluid">
                       </div>
                       <div class="col-8">
                         <div class="post-content">
@@ -141,7 +141,7 @@
                   <article class="tab-post">
                     <div class="row g-0 align-items-center">
                       <div class="col-4">
-                        <img src="assets/img/blog/blog-post-square-3.webp" alt="Post" class="img-fluid">
+                        <img src="{{asset('clieant/assets/img/blog/blog-post-square-3.webp')}}" alt="Post" class="img-fluid">
                       </div>
                       <div class="col-8">
                         <div class="post-content">
@@ -156,7 +156,7 @@
                   <article class="tab-post">
                     <div class="row g-0 align-items-center">
                       <div class="col-4">
-                        <img src="assets/img/blog/blog-post-square-4.webp" alt="Post" class="img-fluid">
+                        <img src="{{asset('clieant/assets/img/blog/blog-post-square-4.webp')}}" alt="Post" class="img-fluid">
                       </div>
                       <div class="col-8">
                         <div class="post-content">
@@ -171,7 +171,7 @@
                   <article class="tab-post">
                     <div class="row g-0 align-items-center">
                       <div class="col-4">
-                        <img src="assets/img/blog/blog-post-square-5.webp" alt="Post" class="img-fluid">
+                        <img src="{{asset('clieant/assets/img/blog/blog-post-square-5.webp')}}" alt="Post" class="img-fluid">
                       </div>
                       <div class="col-8">
                         <div class="post-content">
@@ -189,7 +189,7 @@
                   <article class="tab-post">
                     <div class="row g-0 align-items-center">
                       <div class="col-4">
-                        <img src="assets/img/blog/blog-post-square-4.webp" alt="Post" class="img-fluid">
+                        <img src="{{asset('clieant/assets/img/blog/blog-post-square-4.webp')}}" alt="Post" class="img-fluid">
                       </div>
                       <div class="col-8">
                         <div class="post-content">
@@ -204,7 +204,7 @@
                   <article class="tab-post">
                     <div class="row g-0 align-items-center">
                       <div class="col-4">
-                        <img src="assets/img/blog/blog-post-square-5.webp" alt="Post" class="img-fluid">
+                        <img src="{{asset('clieant/assets/img/blog/blog-post-square-5.webp')}}" alt="Post" class="img-fluid">
                       </div>
                       <div class="col-8">
                         <div class="post-content">
@@ -219,7 +219,7 @@
                   <article class="tab-post">
                     <div class="row g-0 align-items-center">
                       <div class="col-4">
-                        <img src="assets/img/blog/blog-post-square-6.webp" alt="Post" class="img-fluid">
+                        <img src="{{asset('clieant/assets/img/blog/blog-post-square-6.webp')}}" alt="Post" class="img-fluid">
                       </div>
                       <div class="col-8">
                         <div class="post-content">
@@ -234,7 +234,7 @@
                   <article class="tab-post">
                     <div class="row g-0 align-items-center">
                       <div class="col-4">
-                        <img src="assets/img/blog/blog-post-square-7.webp" alt="Post" class="img-fluid">
+                        <img src="{{asset('clieant/assets/img/blog/blog-post-square-7.webp')}}" alt="Post" class="img-fluid">
                       </div>
                       <div class="col-8">
                         <div class="post-content">
@@ -249,7 +249,7 @@
                   <article class="tab-post">
                     <div class="row g-0 align-items-center">
                       <div class="col-4">
-                        <img src="assets/img/blog/blog-post-square-8.webp" alt="Post" class="img-fluid">
+                        <img src="{{asset('clieant/assets/img/blog/blog-post-square-8.webp')}}" alt="Post" class="img-fluid">
                       </div>
                       <div class="col-8">
                         <div class="post-content">
@@ -267,7 +267,7 @@
                   <article class="tab-post">
                     <div class="row g-0 align-items-center">
                       <div class="col-4">
-                        <img src="assets/img/blog/blog-post-square-7.webp" alt="Post" class="img-fluid">
+                        <img src="{{asset('clieant/assets/img/blog/blog-post-square-7.webp')}}" alt="Post" class="img-fluid">
                       </div>
                       <div class="col-8">
                         <div class="post-content">
@@ -282,7 +282,7 @@
                   <article class="tab-post">
                     <div class="row g-0 align-items-center">
                       <div class="col-4">
-                        <img src="assets/img/blog/blog-post-square-8.webp" alt="Post" class="img-fluid">
+                        <img src="{{asset('clieant/assets/img/blog/blog-post-square-8.webp')}}" alt="Post" class="img-fluid">
                       </div>
                       <div class="col-8">
                         <div class="post-content">
@@ -297,7 +297,7 @@
                   <article class="tab-post">
                     <div class="row g-0 align-items-center">
                       <div class="col-4">
-                        <img src="assets/img/blog/blog-post-square-9.webp" alt="Post" class="img-fluid">
+                        <img src="{{asset('clieant/assets/img/blog/blog-post-square-9.webp')}}" alt="Post" class="img-fluid">
                       </div>
                       <div class="col-8">
                         <div class="post-content">
@@ -312,7 +312,7 @@
                   <article class="tab-post">
                     <div class="row g-0 align-items-center">
                       <div class="col-4">
-                        <img src="assets/img/blog/blog-post-square-10.webp" alt="Post" class="img-fluid">
+                        <img src="{{asset('clieant/assets/img/blog/blog-post-square-10.webp')}}" alt="Post" class="img-fluid">
                       </div>
                       <div class="col-8">
                         <div class="post-content">
@@ -327,7 +327,7 @@
                   <article class="tab-post">
                     <div class="row g-0 align-items-center">
                       <div class="col-4">
-                        <img src="assets/img/blog/blog-post-square-6.webp" alt="Post" class="img-fluid">
+                        <img src="{{asset('clieant/assets/img/blog/blog-post-square-6.webp')}}" alt="Post" class="img-fluid">
                       </div>
                       <div class="col-8">
                         <div class="post-content">
@@ -356,7 +356,7 @@
             <article>
 
               <div class="post-img">
-                <img src="assets/img/blog/blog-post-1.webp" alt="" class="img-fluid">
+                <img src="{{asset('clieant/assets/img/blog/blog-post-1.webp')}}" alt="" class="img-fluid">
               </div>
 
               <p class="post-category">Politics</p>
@@ -366,7 +366,7 @@
               </h2>
 
               <div class="d-flex align-items-center">
-                <img src="assets/img/person/person-f-12.webp" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <img src="{{asset('clieant/assets/img/person/person-f-12.webp')}}" alt="" class="img-fluid post-author-img flex-shrink-0">
                 <div class="post-meta">
                   <p class="post-author">Maria Doe</p>
                   <p class="post-date">
@@ -382,7 +382,7 @@
             <article>
 
               <div class="post-img">
-                <img src="assets/img/blog/blog-post-2.webp" alt="" class="img-fluid">
+                <img src="{{asset('clieant/assets/img/blog/blog-post-2.webp')}}" alt="" class="img-fluid">
               </div>
 
               <p class="post-category">Sports</p>
@@ -392,7 +392,7 @@
               </h2>
 
               <div class="d-flex align-items-center">
-                <img src="assets/img/person/person-f-13.webp" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <img src="{{asset('clieant/assets/img/person/person-f-13.webp')}}" alt="" class="img-fluid post-author-img flex-shrink-0">
                 <div class="post-meta">
                   <p class="post-author">Allisa Mayer</p>
                   <p class="post-date">
@@ -408,7 +408,7 @@
             <article>
 
               <div class="post-img">
-                <img src="assets/img/blog/blog-post-3.webp" alt="" class="img-fluid">
+                <img src="{{asset('clieant/assets/img/blog/blog-post-3.webp')}}" alt="" class="img-fluid">
               </div>
 
               <p class="post-category">Entertainment</p>
@@ -418,7 +418,7 @@
               </h2>
 
               <div class="d-flex align-items-center">
-                <img src="assets/img/person/person-m-10.webp" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <img src="{{asset('clieant/assets/img/person/person-m-10.webp')}}" alt="" class="img-fluid post-author-img flex-shrink-0">
                 <div class="post-meta">
                   <p class="post-author">Mark Dower</p>
                   <p class="post-date">
@@ -434,7 +434,7 @@
             <article>
 
               <div class="post-img">
-                <img src="assets/img/blog/blog-post-4.webp" alt="" class="img-fluid">
+                <img src="{{asset('clieant/assets/img/blog/blog-post-4.webp')}}" alt="" class="img-fluid">
               </div>
 
               <p class="post-category">Sports</p>
@@ -444,7 +444,7 @@
               </h2>
 
               <div class="d-flex align-items-center">
-                <img src="assets/img/person/person-f-14.webp" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <img src="{{asset('clieant/assets/img/person/person-f-14.webp')}}" alt="" class="img-fluid post-author-img flex-shrink-0">
                 <div class="post-meta">
                   <p class="post-author">Lisa Neymar</p>
                   <p class="post-date">
@@ -460,7 +460,7 @@
             <article>
 
               <div class="post-img">
-                <img src="assets/img/blog/blog-post-5.webp" alt="" class="img-fluid">
+                <img src="{{asset('clieant/assets/img/blog/blog-post-5.webp')}}" alt="" class="img-fluid">
               </div>
 
               <p class="post-category">Politics</p>
@@ -470,7 +470,7 @@
               </h2>
 
               <div class="d-flex align-items-center">
-                <img src="assets/img/person/person-m-11.webp" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <img src="{{asset('clieant/assets/img/person/person-m-11.webp')}}" alt="" class="img-fluid post-author-img flex-shrink-0">
                 <div class="post-meta">
                   <p class="post-author">Denis Peterson</p>
                   <p class="post-date">
@@ -486,7 +486,7 @@
             <article>
 
               <div class="post-img">
-                <img src="assets/img/blog/blog-post-6.webp" alt="" class="img-fluid">
+                <img src="{{asset('clieant/assets/img/blog/blog-post-6.webp')}}" alt="" class="img-fluid">
               </div>
 
               <p class="post-category">Entertainment</p>
@@ -496,7 +496,7 @@
               </h2>
 
               <div class="d-flex align-items-center">
-                <img src="assets/img/person/person-f-15.webp" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <img src="{{asset('clieant/assets/img/person/person-f-15.webp')}}" alt="" class="img-fluid post-author-img flex-shrink-0">
                 <div class="post-meta">
                   <p class="post-author">Mika Lendon</p>
                   <p class="post-date">

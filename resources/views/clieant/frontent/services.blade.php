@@ -41,7 +41,7 @@
                 </div>
               </div>
               <div class="service-image">
-                <img src="assets/img/real-estate/property-exterior-3.webp" alt="Buy Dream Home" class="img-fluid">
+                <img src="{{asset('clieant/assets/img/real-estate/property-exterior-3.webp')}}" alt="Buy Dream Home" class="img-fluid">
                 <div class="image-overlay">
                   <i class="bi bi-house-heart"></i>
                 </div>
@@ -67,7 +67,7 @@
                 </div>
               </div>
               <div class="service-image">
-                <img src="assets/img/real-estate/property-exterior-7.webp" alt="Sell Property" class="img-fluid">
+                <img src="{{asset('clieant/assets/img/real-estate/property-exterior-7.webp')}}" alt="Sell Property" class="img-fluid">
                 <div class="image-overlay">
                   <i class="bi bi-currency-dollar"></i>
                 </div>
@@ -93,7 +93,7 @@
                 </div>
               </div>
               <div class="service-image">
-                <img src="assets/img/real-estate/property-interior-5.webp" alt="Premium Rentals" class="img-fluid">
+                <img src="{{asset('clieant/assets/img/real-estate/property-interior-5.webp')}}" alt="Premium Rentals" class="img-fluid">
                 <div class="image-overlay">
                   <i class="bi bi-key"></i>
                 </div>
@@ -119,7 +119,7 @@
                 </div>
               </div>
               <div class="service-image">
-                <img src="assets/img/real-estate/features-2.webp" alt="Investment Consulting" class="img-fluid">
+                <img src="{{asset('clieant/assets/img/real-estate/features-2.webp')}}" alt="Investment Consulting" class="img-fluid">
                 <div class="image-overlay">
                   <i class="bi bi-graph-up-arrow"></i>
                 </div>

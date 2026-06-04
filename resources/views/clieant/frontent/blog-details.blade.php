@@ -31,7 +31,7 @@
 
             <div class="article-meta" data-aos="fade-up" data-aos-delay="200">
               <div class="author">
-                <img src="assets/img/person/person-m-6.webp" alt="Author" class="author-img">
+                <img src="{{asset('clieant/assets/img/person/person-m-6.webp')}}" alt="Author" class="author-img">
                 <div class="author-info">
                   <h4>David Wilson</h4>
                   <span>UI/UX Design Lead</span>
@@ -46,7 +46,7 @@
           </div>
 
           <div class="article-featured-image" data-aos="zoom-in">
-            <img src="assets/img/blog/blog-hero-1.webp" alt="UI Design Evolution" class="img-fluid">
+            <img src="{{asset('clieant/assets/img/blog/blog-hero-1.webp')}}" alt="UI Design Evolution" class="img-fluid">
           </div>
 
           <div class="article-wrapper">
@@ -85,7 +85,7 @@
               <div class="content-section" id="skeuomorphism" data-aos="fade-up">
                 <h2>The Skeuomorphic Era</h2>
                 <div class="image-with-caption right">
-                  <img src="assets/img/blog/blog-hero-2.webp" alt="Skeuomorphic Design Example" class="img-fluid" loading="lazy">
+                  <img src="{{asset('clieant/assets/img/blog/blog-hero-2.webp')}}" alt="Skeuomorphic Design Example" class="img-fluid" loading="lazy">
                   <figcaption>Early iOS design showcasing skeuomorphic elements</figcaption>
                 </div>
                 <p>
@@ -269,7 +269,7 @@
               <div class="comment-box">
                 <div class="comment-wrapper">
                   <div class="avatar-wrapper">
-                    <img src="assets/img/person/person-f-9.webp" alt="Avatar" loading="lazy">
+                    <img src="{{asset('clieant/assets/img/person/person-f-9.webp')}}" alt="Avatar" loading="lazy">
                     <span class="status-indicator"></span>
                   </div>
 
@@ -318,7 +318,7 @@
                 <div class="comment-box reply">
                   <div class="comment-wrapper">
                     <div class="avatar-wrapper">
-                      <img src="assets/img/person/person-m-9.webp" alt="Avatar" loading="lazy">
+                      <img src="{{asset('clieant/assets/img/person/person-m-9.webp')}}" alt="Avatar" loading="lazy">
                       <span class="status-indicator"></span>
                     </div>
 
@@ -365,7 +365,7 @@
                 <div class="comment-box reply">
                   <div class="comment-wrapper">
                     <div class="avatar-wrapper">
-                      <img src="assets/img/person/person-f-9.webp" alt="Avatar" loading="lazy">
+                      <img src="{{asset('clieant/assets/img/person/person-f-9.webp')}}" alt="Avatar" loading="lazy">
                       <span class="status-indicator"></span>
                     </div>
 
@@ -415,7 +415,7 @@
               <div class="comment-box">
                 <div class="comment-wrapper">
                   <div class="avatar-wrapper">
-                    <img src="assets/img/person/person-f-7.webp" alt="Avatar" loading="lazy">
+                    <img src="{{asset('clieant/assets/img/person/person-f-7.webp')}}" alt="Avatar" loading="lazy">
                     <span class="status-indicator"></span>
                   </div>
 

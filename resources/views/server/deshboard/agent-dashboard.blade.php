@@ -174,7 +174,7 @@
                 <ul class="list-group list-group-hover list-group-smooth list-group-space-sm">
                   <li class="list-group-item d-flex justify-content-between align-items-center position-relative">
                     <div class="avatar avatar-xl rounded-circle me-3">
-                      <img src="assets/images/avatar/avatar9.webp" alt="">
+                      <img src="{{asset('assets/images/avatar/avatar9.webp')}}" alt="">
                     </div>
                     <div class="clearfix me-auto pe-3">
                       <h5 class="mb-1 fw-bold">Ethan Brown</h5>
@@ -197,7 +197,7 @@
                   </li>
                   <li class="list-group-item d-flex justify-content-between align-items-center position-relative">
                     <div class="avatar avatar-xl rounded-circle me-3">
-                      <img src="assets/images/avatar/avatar2.webp" alt="">
+                      <img src="{{asset('assets/images/avatar/avatar2.webp')}}" alt="">
                     </div>
                     <div class="clearfix me-auto pe-3">
                       <h5 class="mb-1 fw-bold">Sophia Williams</h5>
@@ -220,7 +220,7 @@
                   </li>
                   <li class="list-group-item d-flex justify-content-between align-items-center position-relative">
                     <div class="avatar avatar-xl rounded-circle me-3">
-                      <img src="assets/images/avatar/avatar3.webp" alt="">
+                      <img src="{{asset('assets/images/avatar/avatar3.webp')}}" alt="">
                     </div>
                     <div class="clearfix me-auto pe-3">
                       <h5 class="mb-1 fw-bold">Liam Johnson</h5>
@@ -243,7 +243,7 @@
                   </li>
                   <li class="list-group-item d-flex justify-content-between align-items-center position-relative">
                     <div class="avatar avatar-xl rounded-circle me-3">
-                      <img src="assets/images/avatar/avatar4.webp" alt="">
+                      <img src="{{asset('assets/images/avatar/avatar4.webp')}}" alt="">
                     </div>
                     <div class="clearfix me-auto pe-3">
                       <h5 class="mb-1 fw-bold">Sophia Williams</h5>
@@ -266,7 +266,7 @@
                   </li>
                   <li class="list-group-item d-flex justify-content-between align-items-center position-relative">
                     <div class="avatar avatar-xl rounded-circle me-3">
-                      <img src="assets/images/avatar/avatar2.webp" alt="">
+                      <img src="{{asset('assets/images/avatar/avatar2.webp')}}" alt="">
                     </div>
                     <div class="clearfix me-auto pe-3">
                       <h5 class="mb-1 fw-bold">Sophia Williams</h5>
@@ -289,7 +289,7 @@
                   </li>
                   <li class="list-group-item d-flex justify-content-between align-items-center position-relative">
                     <div class="avatar avatar-xl rounded-circle me-3">
-                      <img src="assets/images/avatar/avatar3.webp" alt="">
+                      <img src="{{asset('assets/images/avatar/avatar3.webp')}}" alt="">
                     </div>
                     <div class="clearfix me-auto pe-3">
                       <h5 class="mb-1 fw-bold">Liam Johnson</h5>
@@ -324,7 +324,7 @@
                 <ul class="list-group list-group-smooth list-group-space-sm">
                   <li class="list-group-item bg-light-subtle d-flex justify-content-between align-items-center">
                     <div class="avatar rounded-circle me-2">
-                      <img src="assets/images/avatar/avatar1.webp" alt="">
+                      <img src="{{asset('assets/images/avatar/avatar1.webp')}}" alt="">
                     </div>
                     <div class="me-auto">
                       <h6 class="mb-0">Emily Johnson</h6>
@@ -336,7 +336,7 @@
                   </li>
                   <li class="list-group-item bg-light-subtle d-flex justify-content-between align-items-center">
                     <div class="avatar rounded-circle me-2">
-                      <img src="assets/images/avatar/avatar2.webp" alt="">
+                      <img src="{{asset('assets/images/avatar/avatar2.webp')}}" alt="">
                     </div>
                     <div class="me-auto">
                       <h6 class="mb-0">Michael Brown</h6>
@@ -348,7 +348,7 @@
                   </li>
                   <li class="list-group-item bg-light-subtle d-flex justify-content-between align-items-center">
                     <div class="avatar rounded-circle me-2">
-                      <img src="assets/images/avatar/avatar3.webp" alt="">
+                      <img src="{{asset('assets/images/avatar/avatar3.webp')}}" alt="">
                     </div>
                     <div class="me-auto">
                       <h6 class="mb-0">Sophia Williams</h6>
@@ -360,7 +360,7 @@
                   </li>
                   <li class="list-group-item bg-light-subtle d-flex justify-content-between align-items-center">
                     <div class="avatar rounded-circle me-2">
-                      <img src="assets/images/avatar/avatar4.webp" alt="">
+                      <img src="{{asset('assets/images/avatar/avatar4.webp')}}" alt="">
                     </div>
                     <div class="me-auto">
                       <h6 class="mb-0">Liam Davis</h6>
@@ -372,7 +372,7 @@
                   </li>
                   <li class="list-group-item bg-light-subtle d-flex justify-content-between align-items-center">
                     <div class="avatar rounded-circle me-2">
-                      <img src="assets/images/avatar/avatar5.webp" alt="">
+                      <img src="{{asset('assets/images/avatar/avatar5.webp')}}" alt="">
                     </div>
                     <div class="me-auto">
                       <h6 class="mb-0">Olivia Martinez</h6>
@@ -396,7 +396,7 @@
                   </li>
                   <li class="list-group-item bg-light-subtle d-flex justify-content-between align-items-center">
                     <div class="avatar rounded-circle me-2">
-                      <img src="assets/images/avatar/avatar4.webp" alt="">
+                      <img src="{{asset('assets/images/avatar/avatar4.webp')}}" alt="">
                     </div>
                     <div class="me-auto">
                       <h6 class="mb-0">Liam Davis</h6>
@@ -545,7 +545,7 @@
                       <td>
                         <div class="d-flex align-items-center">
                           <div class="avatar avatar-xs rounded-circle text-bg-primary me-2">
-                            <img src="assets/images/properties/listing/pic1.jpg" alt="">
+                            <img src="{{asset('assets/images/properties/listing/pic1.jpg')}}" alt="">
                           </div>
                           Skyline Villa
                         </div>
@@ -568,303 +568,7 @@
                         </div>
                       </td>
                     </tr>
-                    <tr>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <div class="avatar avatar-xs rounded-circle text-bg-primary me-2">
-                            <img src="assets/images/properties/listing/pic2.jpg" alt="">
-                          </div>
-                          Palm Residency
-                        </div>
-                      </td>
-                      <td>Apartment</td>
-                      <td>Abu Dhabi, UAE</td>
-                      <td>$98,520</td>
-                      <td>890</td>
-                      <td>
-                        <span class="badge bg-warning-subtle text-warning">Pending</span>
-                      </td>
-                      <td>
-                        <div class="d-flex align-items-center gap-2">
-                          <button class="btn btn-action-primary btn-sm btn-icon btn-outline-light">
-                            <i class="fi fi-rr-edit"></i>
-                          </button>
-                          <button class="btn btn-action-primary btn-sm btn-icon btn-outline-light">
-                            <i class="fi fi-rr-eye"></i>
-                          </button>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <div class="avatar avatar-xs rounded-circle text-bg-primary me-2">
-                            <img src="assets/images/properties/listing/pic3.jpg" alt="">
-                          </div>
-                          Elite Tower
-                        </div>
-                      </td>
-                      <td>Penthouse</td>
-                      <td>New York, USA</td>
-                      <td>$3,20,000</td>
-                      <td>2,560</td>
-                      <td>
-                        <span class="badge bg-success-subtle text-success">Active</span>
-                      </td>
-                      <td>
-                        <div class="d-flex align-items-center gap-2">
-                          <button class="btn btn-action-primary btn-sm btn-icon btn-outline-light">
-                            <i class="fi fi-rr-edit"></i>
-                          </button>
-                          <button class="btn btn-action-primary btn-sm btn-icon btn-outline-light">
-                            <i class="fi fi-rr-eye"></i>
-                          </button>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <div class="avatar avatar-xs rounded-circle text-bg-primary me-2">
-                            <img src="assets/images/properties/listing/pic4.jpg" alt="">
-                          </div>
-                          Greenwood House
-                        </div>
-                      </td>
-                      <td>House</td>
-                      <td>London, UK</td>
-                      <td>$1,10,420</td>
-                      <td>1,745</td>
-                      <td>
-                        <span class="badge bg-danger-subtle text-danger">Sold</span>
-                      </td>
-                      <td>
-                        <div class="d-flex align-items-center gap-2">
-                          <button class="btn btn-action-primary btn-sm btn-icon btn-outline-light">
-                            <i class="fi fi-rr-edit"></i>
-                          </button>
-                          <button class="btn btn-action-primary btn-sm btn-icon btn-outline-light">
-                            <i class="fi fi-rr-eye"></i>
-                          </button>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <div class="avatar avatar-xs rounded-circle text-bg-primary me-2">
-                            <img src="assets/images/properties/listing/pic5.jpg" alt="">
-                          </div>
-                          Sunset Apartment
-                        </div>
-                      </td>
-                      <td>Apartment</td>
-                      <td>Paris, France</td>
-                      <td>$85,960</td>
-                      <td>1,050</td>
-                      <td>
-                        <span class="badge bg-success-subtle text-success">Active</span>
-                      </td>
-                      <td>
-                        <div class="d-flex align-items-center gap-2">
-                          <button class="btn btn-action-primary btn-sm btn-icon btn-outline-light">
-                            <i class="fi fi-rr-edit"></i>
-                          </button>
-                          <button class="btn btn-action-primary btn-sm btn-icon btn-outline-light">
-                            <i class="fi fi-rr-eye"></i>
-                          </button>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <div class="avatar avatar-xs rounded-circle text-bg-primary me-2">
-                            <img src="assets/images/properties/listing/pic6.jpg" alt="">
-                          </div>
-                          Mountain View Villa
-                        </div>
-                      </td>
-                      <td>Villa</td>
-                      <td>Zurich, Switzerland</td>
-                      <td>$2,50,000</td>
-                      <td>3,120</td>
-                      <td>
-                        <span class="badge bg-success-subtle text-success">Active</span>
-                      </td>
-                      <td>
-                        <div class="d-flex align-items-center gap-2">
-                          <button class="btn btn-action-primary btn-sm btn-icon btn-outline-light">
-                            <i class="fi fi-rr-edit"></i>
-                          </button>
-                          <button class="btn btn-action-primary btn-sm btn-icon btn-outline-light">
-                            <i class="fi fi-rr-eye"></i>
-                          </button>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <div class="avatar avatar-xs rounded-circle text-bg-primary me-2">
-                            <img src="assets/images/properties/listing/pic7.jpg" alt="">
-                          </div>
-                          Riverside Cottage
-                        </div>
-                      </td>
-                      <td>Cottage</td>
-                      <td>Amsterdam, Netherlands</td>
-                      <td>$65,700</td>
-                      <td>920</td>
-                      <td>
-                        <span class="badge bg-warning-subtle text-warning">Pending</span>
-                      </td>
-                      <td>
-                        <div class="d-flex align-items-center gap-2">
-                          <button class="btn btn-action-primary btn-sm btn-icon btn-outline-light">
-                            <i class="fi fi-rr-edit"></i>
-                          </button>
-                          <button class="btn btn-action-primary btn-sm btn-icon btn-outline-light">
-                            <i class="fi fi-rr-eye"></i>
-                          </button>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <div class="avatar avatar-xs rounded-circle text-bg-primary me-2">
-                            <img src="assets/images/properties/listing/pic8.jpg" alt="">
-                          </div>
-                          Cityview Apartment
-                        </div>
-                      </td>
-                      <td>Apartment</td>
-                      <td>Berlin, Germany</td>
-                      <td>$95,400</td>
-                      <td>1,480</td>
-                      <td>
-                        <span class="badge bg-success-subtle text-success">Active</span>
-                      </td>
-                      <td>
-                        <div class="d-flex align-items-center gap-2">
-                          <button class="btn btn-action-primary btn-sm btn-icon btn-outline-light">
-                            <i class="fi fi-rr-edit"></i>
-                          </button>
-                          <button class="btn btn-action-primary btn-sm btn-icon btn-outline-light">
-                            <i class="fi fi-rr-eye"></i>
-                          </button>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <div class="avatar avatar-xs rounded-circle text-bg-primary me-2">
-                            <img src="assets/images/properties/listing/pic9.jpg" alt="">
-                          </div>
-                          Blue Horizon Villa
-                        </div>
-                      </td>
-                      <td>Villa</td>
-                      <td>Maldives</td>
-                      <td>$2,15,800</td>
-                      <td>2,940</td>
-                      <td>
-                        <span class="badge bg-success-subtle text-success">Active</span>
-                      </td>
-                      <td>
-                        <div class="d-flex align-items-center gap-2">
-                          <button class="btn btn-action-primary btn-sm btn-icon btn-outline-light">
-                            <i class="fi fi-rr-edit"></i>
-                          </button>
-                          <button class="btn btn-action-primary btn-sm btn-icon btn-outline-light">
-                            <i class="fi fi-rr-eye"></i>
-                          </button>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <div class="avatar avatar-xs rounded-circle text-bg-primary me-2">
-                            <img src="assets/images/properties/listing/pic10.jpg" alt="">
-                          </div>
-                          Ocean Pearl Tower
-                        </div>
-                      </td>
-                      <td>Penthouse</td>
-                      <td>Miami, USA</td>
-                      <td>$3,10,500</td>
-                      <td>3,540</td>
-                      <td>
-                        <span class="badge bg-warning-subtle text-warning">Pending</span>
-                      </td>
-                      <td>
-                        <div class="d-flex align-items-center gap-2">
-                          <button class="btn btn-action-primary btn-sm btn-icon btn-outline-light">
-                            <i class="fi fi-rr-edit"></i>
-                          </button>
-                          <button class="btn btn-action-primary btn-sm btn-icon btn-outline-light">
-                            <i class="fi fi-rr-eye"></i>
-                          </button>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <div class="avatar avatar-xs rounded-circle text-bg-primary me-2">
-                            <img src="assets/images/properties/listing/pic11.jpg" alt="">
-                          </div>
-                          Garden Estate
-                        </div>
-                      </td>
-                      <td>House</td>
-                      <td>Rome, Italy</td>
-                      <td>$1,25,600</td>
-                      <td>1,320</td>
-                      <td>
-                        <span class="badge bg-danger-subtle text-danger">Sold</span>
-                      </td>
-                      <td>
-                        <div class="d-flex align-items-center gap-2">
-                          <button class="btn btn-action-primary btn-sm btn-icon btn-outline-light">
-                            <i class="fi fi-rr-edit"></i>
-                          </button>
-                          <button class="btn btn-action-primary btn-sm btn-icon btn-outline-light">
-                            <i class="fi fi-rr-eye"></i>
-                          </button>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <div class="d-flex align-items-center">
-                          <div class="avatar avatar-xs rounded-circle text-bg-primary me-2">
-                            <img src="assets/images/properties/listing/pic12.jpg" alt="">
-                          </div>
-                          Lakeview Apartment
-                        </div>
-                      </td>
-                      <td>Apartment</td>
-                      <td>Chicago, USA</td>
-                      <td>$94,850</td>
-                      <td>1,710</td>
-                      <td>
-                        <span class="badge bg-success-subtle text-success">Active</span>
-                      </td>
-                      <td>
-                        <div class="d-flex align-items-center gap-2">
-                          <button class="btn btn-action-primary btn-sm btn-icon btn-outline-light">
-                            <i class="fi fi-rr-edit"></i>
-                          </button>
-                          <button class="btn btn-action-primary btn-sm btn-icon btn-outline-light">
-                            <i class="fi fi-rr-eye"></i>
-                          </button>
-                        </div>
-                      </td>
-                    </tr>
+                   
                     <tr>
                       <td>
                         <div class="d-flex align-items-center">

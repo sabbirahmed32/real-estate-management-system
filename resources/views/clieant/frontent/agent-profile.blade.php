@@ -25,7 +25,7 @@
         <div class="row align-items-center mb-5">
           <div class="col-lg-4" data-aos="fade-right" data-aos-delay="150">
             <div class="agent-photo-wrapper">
-              <img src="assets/img/real-estate/agent-3.webp" alt="Agent Profile" class="img-fluid agent-photo">
+              <img src="{{asset('clieant/assets/img/real-estate/agent-3.webp')}}" alt="Agent Profile" class="img-fluid agent-photo">
               <div class="agent-badge">
                 <i class="bi bi-star-fill"></i>
                 <span>Top Agent</span>

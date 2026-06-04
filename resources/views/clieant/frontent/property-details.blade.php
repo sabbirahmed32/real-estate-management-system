@@ -46,7 +46,7 @@
                   </script>
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                      <img src="assets/img/real-estate/property-exterior-7.webp" class="img-fluid hero-image" alt="Property Main Image">
+                      <img src="{{asset('clieant/assets/img/real-estate/property-exterior-7.webp')}}" class="img-fluid hero-image" alt="Property Main Image">
                       <div class="hero-overlay">
                         <div class="property-badge">
                           <span class="status-badge for-rent">For Rent</span>
@@ -59,43 +59,43 @@
                       </div>
                     </div>
                     <div class="swiper-slide">
-                      <img src="assets/img/real-estate/property-interior-7.webp" class="img-fluid hero-image" alt="Interior View">
+                      <img src="{{asset('clieant/assets/img/real-estate/property-interior-7.webp')}}" class="img-fluid hero-image" alt="Interior View">
                     </div>
                     <div class="swiper-slide">
-                      <img src="assets/img/real-estate/property-exterior-9.webp" class="img-fluid hero-image" alt="Exterior View">
+                      <img src="{{asset('clieant/assets/img/real-estate/property-exterior-9.webp')}}" class="img-fluid hero-image" alt="Exterior View">
                     </div>
                     <div class="swiper-slide">
-                      <img src="assets/img/real-estate/features-5.webp" class="img-fluid hero-image" alt="Features">
+                      <img src="{{asset('clieant/assets/img/real-estate/features-5.webp')}}" class="img-fluid hero-image" alt="Features">
                     </div>
                     <div class="swiper-slide">
-                      <img src="assets/img/real-estate/property-interior-8.webp" class="img-fluid hero-image" alt="More Photos">
+                      <img src="{{asset('clieant/assets/img/real-estate/property-interior-8.webp')}}" class="img-fluid hero-image" alt="More Photos">
                     </div>
                     <div class="swiper-slide">
-                      <img src="assets/img/real-estate/property-exterior-3.webp" class="img-fluid hero-image" alt="Exterior Detail">
+                      <img src="{{asset('clieant/assets/img/real-estate/property-exterior-3.webp')}}" class="img-fluid hero-image" alt="Exterior Detail">
                     </div>
                     <div class="swiper-slide">
-                      <img src="assets/img/real-estate/property-interior-4.webp" class="img-fluid hero-image" alt="Living Area">
+                      <img src="{{asset('clieant/assets/img/real-estate/property-interior-4.webp')}}" class="img-fluid hero-image" alt="Living Area">
                     </div>
                     <div class="swiper-slide">
-                      <img src="assets/img/real-estate/features-2.webp" class="img-fluid hero-image" alt="Kitchen">
+                      <img src="{{asset('clieant/assets/img/real-estate/features-2.webp')}}" class="img-fluid hero-image" alt="Kitchen">
                     </div>
                     <div class="swiper-slide">
-                      <img src="assets/img/real-estate/property-interior-5.webp" class="img-fluid hero-image" alt="Bedroom">
+                      <img src="{{asset('clieant/assets/img/real-estate/property-interior-5.webp')}}" class="img-fluid hero-image" alt="Bedroom">
                     </div>
                     <div class="swiper-slide">
-                      <img src="assets/img/real-estate/property-exterior-1.webp" class="img-fluid hero-image" alt="Building View">
+                      <img src="{{asset('clieant/assets/img/real-estate/property-exterior-1.webp')}}" class="img-fluid hero-image" alt="Building View">
                     </div>
                     <div class="swiper-slide">
-                      <img src="assets/img/real-estate/features-3.webp" class="img-fluid hero-image" alt="Bathroom">
+                      <img src="{{asset('clieant/assets/img/real-estate/features-3.webp')}}" class="img-fluid hero-image" alt="Bathroom">
                     </div>
                     <div class="swiper-slide">
-                      <img src="assets/img/real-estate/property-interior-2.webp" class="img-fluid hero-image" alt="Dining Area">
+                      <img src="{{asset('clieant/assets/img/real-estate/property-interior-2.webp')}}" class="img-fluid hero-image" alt="Dining Area">
                     </div>
                     <div class="swiper-slide">
-                      <img src="assets/img/real-estate/property-exterior-8.webp" class="img-fluid hero-image" alt="Balcony View">
+                      <img src="{{asset('clieant/assets/img/real-estate/property-exterior-8.webp')}}" class="img-fluid hero-image" alt="Balcony View">
                     </div>
                     <div class="swiper-slide">
-                      <img src="assets/img/real-estate/features-1.webp" class="img-fluid hero-image" alt="Amenities">
+                      <img src="{{asset('clieant/assets/img/real-estate/features-1.webp')}}" class="img-fluid hero-image" alt="Amenities">
                     </div>
                   </div>
                   <div class="swiper-button-next"></div>
@@ -124,46 +124,46 @@
                   </script>
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                      <img src="assets/img/real-estate/property-exterior-7.webp" class="img-fluid thumbnail-img" alt="Property Main Image">
+                      <img src="{{asset('clieant/assets/img/real-estate/property-exterior-7.webp')}}" class="img-fluid thumbnail-img" alt="Property Main Image">
                     </div>
                     <div class="swiper-slide">
-                      <img src="assets/img/real-estate/property-interior-7.webp" class="img-fluid thumbnail-img" alt="Interior View">
+                      <img src="{{asset('clieant/assets/img/real-estate/property-interior-7.webp')}}" class="img-fluid thumbnail-img" alt="Interior View">
                     </div>
                     <div class="swiper-slide">
-                      <img src="assets/img/real-estate/property-exterior-9.webp" class="img-fluid thumbnail-img" alt="Exterior View">
+                      <img src="{{asset('clieant/assets/img/real-estate/property-exterior-9.webp')}}" class="img-fluid thumbnail-img" alt="Exterior View">
                     </div>
                     <div class="swiper-slide">
-                      <img src="assets/img/real-estate/features-5.webp" class="img-fluid thumbnail-img" alt="Features">
+                      <img src="{{asset('clieant/assets/img/real-estate/features-5.webp')}}" class="img-fluid thumbnail-img" alt="Features">
                     </div>
                     <div class="swiper-slide">
-                      <img src="assets/img/real-estate/property-interior-8.webp" class="img-fluid thumbnail-img" alt="More Photos">
+                      <img src="{{asset('clieant/assets/img/real-estate/property-interior-8.webp')}}" class="img-fluid thumbnail-img" alt="More Photos">
                     </div>
                     <div class="swiper-slide">
-                      <img src="assets/img/real-estate/property-exterior-3.webp" class="img-fluid thumbnail-img" alt="Exterior Detail">
+                      <img src="{{asset('clieant/assets/img/real-estate/property-exterior-3.webp')}}" class="img-fluid thumbnail-img" alt="Exterior Detail">
                     </div>
                     <div class="swiper-slide">
-                      <img src="assets/img/real-estate/property-interior-4.webp" class="img-fluid thumbnail-img" alt="Living Area">
+                      <img src="{{asset('clieant/assets/img/real-estate/property-interior-4.webp')}}" class="img-fluid thumbnail-img" alt="Living Area">
                     </div>
                     <div class="swiper-slide">
-                      <img src="assets/img/real-estate/features-2.webp" class="img-fluid thumbnail-img" alt="Kitchen">
+                      <img src="{{asset('clieant/assets/img/real-estate/features-2.webp')}}" class="img-fluid thumbnail-img" alt="Kitchen">
                     </div>
                     <div class="swiper-slide">
-                      <img src="assets/img/real-estate/property-interior-5.webp" class="img-fluid thumbnail-img" alt="Bedroom">
+                      <img src="{{asset('clieant/assets/img/real-estate/property-interior-5.webp')}}" class="img-fluid thumbnail-img" alt="Bedroom">
                     </div>
                     <div class="swiper-slide">
-                      <img src="assets/img/real-estate/property-exterior-1.webp" class="img-fluid thumbnail-img" alt="Building View">
+                      <img src="{{asset('clieant/assets/img/real-estate/property-exterior-1.webp')}}" class="img-fluid thumbnail-img" alt="Building View">
                     </div>
                     <div class="swiper-slide">
-                      <img src="assets/img/real-estate/features-3.webp" class="img-fluid thumbnail-img" alt="Bathroom">
+                      <img src="{{asset('clieant/assets/img/real-estate/features-3.webp')}}" class="img-fluid thumbnail-img" alt="Bathroom">
                     </div>
                     <div class="swiper-slide">
-                      <img src="assets/img/real-estate/property-interior-2.webp" class="img-fluid thumbnail-img" alt="Dining Area">
+                      <img src="{{asset('clieant/assets/img/real-estate/property-interior-2.webp')}}" class="img-fluid thumbnail-img" alt="Dining Area">
                     </div>
                     <div class="swiper-slide">
-                      <img src="assets/img/real-estate/property-exterior-8.webp" class="img-fluid thumbnail-img" alt="Balcony View">
+                      <img src="{{asset('clieant/assets/img/real-estate/property-exterior-8.webp')}}" class="img-fluid thumbnail-img" alt="Balcony View">
                     </div>
                     <div class="swiper-slide">
-                      <img src="assets/img/real-estate/features-1.webp" class="img-fluid thumbnail-img" alt="Amenities">
+                      <img src="{{asset('clieant/assets/img/real-estate/features-1.webp')}}" class="img-fluid thumbnail-img" alt="Amenities">
                     </div>
                   </div>
                 </div>
@@ -276,7 +276,7 @@
             <div class="floor-plan-section mb-5" data-aos="fade-up" data-aos-delay="500">
               <h3>Floor Plan</h3>
               <div class="floor-plan-card">
-                <img src="assets/img/real-estate/property-interior-9.webp" class="img-fluid" alt="Floor Plan">
+                <img src="{{asset('clieant/assets/img/real-estate/property-interior-9.webp')}}" class="img-fluid" alt="Floor Plan">
                 <div class="plan-details">
                   <h5>3 Bedroom Penthouse Layout</h5>
                   <p>Open concept living and dining area with private balcony access. Master suite features ensuite bathroom and city views.</p>
@@ -318,7 +318,7 @@
               <div class="agent-card mb-4" data-aos="fade-up" data-aos-delay="350">
                 <div class="agent-header">
                   <div class="agent-avatar">
-                    <img src="assets/img/person/person-f-12.webp" class="img-fluid" alt="Agent Photo">
+                    <img src="{{asset('clieant/assets/img/person/person-f-12.webp')}}" class="img-fluid" alt="Agent Photo">
                     <div class="online-status"></div>
                   </div>
                   <div class="agent-info">
@@ -414,7 +414,7 @@
               <div class="similar-properties" data-aos="fade-up" data-aos-delay="650">
                 <h4>Similar Properties</h4>
                 <div class="similar-property-item">
-                  <img src="assets/img/real-estate/property-exterior-4.webp" class="img-fluid" alt="Similar Property">
+                  <img src="{{asset('clieant/assets/img/real-estate/property-exterior-4.webp')}}" class="img-fluid" alt="Similar Property">
                   <div class="similar-info">
                     <h6>Luxury Apartment Downtown</h6>
                     <p class="similar-price">$4,200/month</p>
@@ -423,7 +423,7 @@
                 </div>
 
                 <div class="similar-property-item">
-                  <img src="assets/img/real-estate/property-interior-6.webp" class="img-fluid" alt="Similar Property">
+                  <img src="{{asset('clieant/assets/img/real-estate/property-interior-6.webp')}}" class="img-fluid" alt="Similar Property">
                   <div class="similar-info">
                     <h6>Modern Penthouse Suite</h6>
                     <p class="similar-price">$5,100/month</p>

@@ -25,7 +25,7 @@
           <div class="col-lg-8">
             <div class="service-content">
               <div class="service-hero" data-aos="fade-up" data-aos-delay="150">
-                <img src="assets/img/real-estate/property-exterior-8.webp" alt="Property Sales Service" class="img-fluid rounded">
+                <img src="{{asset('clieant/assets/img/real-estate/property-exterior-8.webp')}}" alt="Property Sales Service" class="img-fluid rounded">
                 <div class="service-badge">
                   <i class="bi bi-house-door"></i>
                   Premium Service
@@ -229,7 +229,7 @@
                     <p>"Outstanding service! They sold our home in just 18 days and got us 5% above asking price. Highly recommended!"</p>
                   </div>
                   <div class="testimonial-author">
-                    <img src="assets/img/person/person-f-8.webp" alt="Sarah Johnson" class="rounded-circle">
+                    <img src="{{asset('clieant/assets/img/person/person-f-8.webp')}}" alt="Sarah Johnson" class="rounded-circle">
                     <div class="author-info">
                       <h6>Sarah Johnson</h6>
                       <span>Homeowner</span>

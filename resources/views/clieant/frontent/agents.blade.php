@@ -27,7 +27,7 @@
           <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="agent-card">
               <div class="agent-image">
-                <img src="assets/img/real-estate/agent-1.webp" alt="Agent" class="img-fluid">
+                <img src="{{asset('clieant/assets/img/real-estate/agent-1.webp')}}" alt="Agent" class="img-fluid">
                 <div class="badge-overlay">
                   <span class="top-seller-badge">Top Seller</span>
                 </div>
@@ -54,7 +54,7 @@
           <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="agent-card">
               <div class="agent-image">
-                <img src="assets/img/real-estate/agent-2.webp" alt="Agent" class="img-fluid">
+                <img src="{{asset('clieant/assets/img/real-estate/agent-2.webp')}}" alt="Agent" class="img-fluid">
                 <div class="badge-overlay">
                   <span class="verified-badge">Verified</span>
                 </div>
@@ -81,7 +81,7 @@
           <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="agent-card">
               <div class="agent-image">
-                <img src="assets/img/real-estate/agent-3.webp" alt="Agent" class="img-fluid">
+                <img src="{{asset('clieant/assets/img/real-estate/agent-3.webp')}}" alt="Agent" class="img-fluid">
                 <div class="badge-overlay">
                   <span class="new-agent-badge">New Agent</span>
                 </div>
@@ -108,7 +108,7 @@
           <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="agent-card">
               <div class="agent-image">
-                <img src="assets/img/real-estate/agent-4.webp" alt="Agent" class="img-fluid">
+                <img src="{{asset('clieant/assets/img/real-estate/agent-4.webp')}}" alt="Agent" class="img-fluid">
                 <div class="badge-overlay">
                   <span class="awarded-badge">Award Winner</span>
                 </div>
@@ -135,7 +135,7 @@
           <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="agent-card">
               <div class="agent-image">
-                <img src="assets/img/real-estate/agent-5.webp" alt="Agent" class="img-fluid">
+                <img src="{{asset('clieant/assets/img/real-estate/agent-5.webp')}}" alt="Agent" class="img-fluid">
                 <div class="badge-overlay">
                   <span class="top-seller-badge">Top Seller</span>
                 </div>
@@ -162,7 +162,7 @@
           <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="agent-card">
               <div class="agent-image">
-                <img src="assets/img/real-estate/agent-6.webp" alt="Agent" class="img-fluid">
+                <img src="{{asset('clieant/assets/img/real-estate/agent-6.webp')}}" alt="Agent" class="img-fluid">
                 <div class="badge-overlay">
                   <span class="verified-badge">Verified</span>
                 </div>
@@ -189,7 +189,7 @@
           <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="agent-card">
               <div class="agent-image">
-                <img src="assets/img/real-estate/agent-7.webp" alt="Agent" class="img-fluid">
+                <img src="{{asset('clieant/assets/img/real-estate/agent-7.webp')}}" alt="Agent" class="img-fluid">
                 <div class="badge-overlay">
                   <span class="awarded-badge">Award Winner</span>
                 </div>
@@ -216,7 +216,7 @@
           <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="agent-card">
               <div class="agent-image">
-                <img src="assets/img/real-estate/agent-8.webp" alt="Agent" class="img-fluid">
+                <img src="{{asset('clieant/assets/img/real-estate/agent-8.webp')}}" alt="Agent" class="img-fluid">
                 <div class="badge-overlay">
                   <span class="new-agent-badge">New Agent</span>
                 </div>
