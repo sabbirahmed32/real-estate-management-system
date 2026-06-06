@@ -24,3 +24,7 @@ Route::get('/admin/dashboard', [BackendController::class, 'dashboard'])->name('d
 Route::get('/agent/dashboard', [BackendController::class, 'agentDashboard'])->name('agent.dashboard');
 Route::get('/analytics/dashboard', [BackendController::class, 'analyticsDashboard'])->name('analytics.dashboard');
 
+// Agent
+Route::get('/add-agents', [BackendController::class, 'addAgent'])->name('add.agent');
+Route::get('/all-agents', [BackendController::class, 'allAgent'])->name('all.agent');
+Route::get('/agent/profile', [BackendController::class, 'agentProfile'])->name('agent.profile');
