@@ -23,18 +23,5 @@ class BackendController extends Controller
         }
 
 
-    // Agents
-        public function addAgent(){
-            return view('server.agent.add-agent');
-        }
 
-    // allAgent
-        public function allAgent(){
-            return view('server.agent.all-agent');
-        }
-
-    // agentProfile
-        public function agentProfile(){
-            return view('server.agent.agent-profile');
-        }
 }

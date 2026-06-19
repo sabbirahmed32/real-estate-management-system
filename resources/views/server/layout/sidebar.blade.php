@@ -38,21 +38,7 @@
                                     <span class="menu-label">Analytics Dashboard</span>
                                 </a>
                             </li>
-                            <li class="menu-item">
-                                <a class="menu-link" href="add-agent.html">
-                                    <span class="menu-label">Add Agents</span>
-                                </a>
-                            </li>
-                            <li class="menu-item">
-                                <a class="menu-link" href="all-agents.html">
-                                    <span class="menu-label">All Agents</span>
-                                </a>
-                            </li>
-                            <li class="menu-item">
-                                <a class="menu-link" href="agent-profile.html">
-                                    <span class="menu-label">Agent Profile</span>
-                                </a>
-                            </li>
+
                             <li class="menu-item">
                                 <a class="menu-link" href="add-property.html">
                                     <span class="menu-label">Add Property</span>
@@ -73,6 +59,30 @@
                                     <span class="menu-label">Property Details</span>
                                 </a>
                             </li>
+                        </ul>
+                    </li>
+                     <li class="menu-item menu-arrow">
+                        <a class="menu-link" href="javascript:void(0);">
+                            <i class="icon-house"></i>
+                            <span class="menu-label">Agents</span>
+                        </a>
+                        <ul class="menu-inner">
+                              <li class="menu-item">
+                                <a class="menu-link" href="{{route('add.agent')}}">
+                                    <span class="menu-label">Add Agents</span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="{{route('all.agent')}}">
+                                    <span class="menu-label">All Agents</span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="{{route('agent.profile')}}">
+                                    <span class="menu-label">Agent Profile</span>
+                                </a>
+                            </li>
+
                         </ul>
                     </li>
                     <li class="menu-item">

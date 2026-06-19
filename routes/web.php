@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\clieant\frontentController;
 use App\Http\Controllers\Server\BackendController;
+use App\Http\Controllers\Server\AgentsController;
 
 Route::get('/', [frontentController::class, 'index'])->name('index.data');
 Route::get('/about', [frontentController::class, 'about'])->name('about.data');
@@ -25,6 +26,7 @@ Route::get('/agent/dashboard', [BackendController::class, 'agentDashboard'])->na
 Route::get('/analytics/dashboard', [BackendController::class, 'analyticsDashboard'])->name('analytics.dashboard');
 
 // Agent
-Route::get('/add-agents', [BackendController::class, 'addAgent'])->name('add.agent');
-Route::get('/all-agents', [BackendController::class, 'allAgent'])->name('all.agent');
-Route::get('/agent/profile', [BackendController::class, 'agentProfile'])->name('agent.profile');
+Route::get('/add-agents', [AgentsController::class, 'addAgent'])->name('add.agent');
+Route::post('/store-agents', [AgentsController::class, 'storeAgents'])->name('store.agents');
+Route::get('/all-agents', [AgentsController::class, 'allAgent'])->name('all.agent');
+Route::get('/agent/profile', [AgentsController::class, 'agentProfile'])->name('agent.profile');
