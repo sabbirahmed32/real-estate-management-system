@@ -91,6 +91,8 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+   <!-- Toastr -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet"
@@ -129,6 +131,20 @@
         href="{{ asset('assets/css/styles.css') }}">
 
 </head>
+    <style>
+        .toast-success {
+        background-color: #51A351 !important;
+        }
+        .toast-error {
+            background-color: #BD362F !important;
+        }
+        .toast-warning {
+            background-color: #F89406 !important;
+        }
+        .toast-info {
+            background-color: #2F96B4 !important;
+        }
+    </style>
 <body>
     <div class="page-layout">
         <!-- begin::UrbanHub Page Header -->
@@ -375,6 +391,7 @@
         <!-- end::UrbanHub Footer -->
     </div>
 
+
     <script src="{{ asset('assets/libs/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('assets/libs/global/global.min.js') }}"></script>
     <script src="{{ asset('assets/libs/simplebar/simplebar.min.js') }}"></script>
@@ -387,8 +404,28 @@
     <script src="{{ asset('assets/js/appSettings.js') }}"></script>
     <script src="{{ asset('assets/js/main.js') }}"></script>
     <script src="{{ asset('assets/js/dashboard.js') }}"></script>
+    <!-- Include Toastr and jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
+
+    <script>
+    @if(Session::has('success'))
+        toastr.success("{{ Session::get('success') }}");
+    @endif
+
+    @if(Session::has('error'))
+        toastr.error("{{ Session::get('error') }}");
+    @endif
+
+    @if(Session::has('warning'))
+        toastr.warning("{{ Session::get('warning') }}");
+    @endif
+
+    @if(Session::has('info'))
+        toastr.info("{{ Session::get('info') }}");
+    @endif
+</script>
 
 </body>
-
 </html>
