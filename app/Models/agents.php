@@ -8,6 +8,7 @@ class agents extends Model
 {
      protected $fillable = [
         'image',
+        'agents_type',
         'name',
         'email',
         'phone',

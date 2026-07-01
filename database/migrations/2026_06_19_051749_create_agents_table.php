@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('image')->nullable();
 
             $table->string('name');
+            $table->string('agents_type');
             $table->string('email')->unique();
             $table->string('phone')->nullable();
 

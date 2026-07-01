@@ -66,6 +66,12 @@
                                             placeholder="Enter Full Name">
                                     </div>
                                     <div class="col-md-4 mb-3">
+                                       <select name="agents_type" class="form-control">
+                                        <option value="Senior Agent">Senior Agent</option>
+                                        <option value="Junior Agent">Junior Agent</option>
+                                    </select>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
                                         <label class="form-label mb-2">Agent Email</label>
                                         <input type="email" name="email" class="form-control" placeholder="Enter email">
                                     </div>

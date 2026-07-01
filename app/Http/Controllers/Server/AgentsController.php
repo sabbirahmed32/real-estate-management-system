@@ -32,6 +32,7 @@ class AgentsController extends Controller
         agents::create([
             'image'             => $imageName,
             'name'              => $request->name,
+            'agents_type'       => $request->agents_type,
             'email'             => $request->email,
             'phone'             => $request->phone,
             'properties_number' => $request->properties_number,
@@ -56,7 +57,8 @@ class AgentsController extends Controller
 
     // allAgent
         public function allAgent(){
-            return view('server.agent.all-agent');
+            $agents = agents::latest()->get();
+            return view('server.agent.all-agent', compact('agents'));
         }
 
     // agentProfile
