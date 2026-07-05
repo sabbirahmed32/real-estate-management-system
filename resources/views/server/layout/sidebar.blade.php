@@ -85,12 +85,21 @@
 
                         </ul>
                     </li>
-                    <li class="menu-item">
-                        <a class="menu-link" href="chat.html">
-                            <i class="icon-message-square-text"></i>
-                            <span class="menu-label">Chat</span>
+
+                    <li class="menu-item menu-arrow">
+                        <a class="menu-link" href="javascript:void(0);">
+                            <i class="icon-calendar-days"></i>
+                            <span class="menu-label">Property</span>
                         </a>
+                        <ul class="menu-inner">
+                              <li class="menu-item">
+                                <a class="menu-link" href="{{route('add.agent')}}">
+                                    <span class="menu-label">Add property</span>
+                                </a>
+                            </li>
+                        </ul>
                     </li>
+                    
                     <li class="menu-item">
                         <a class="menu-link" href="calendar.html">
                             <i class="icon-calendar-days"></i>
