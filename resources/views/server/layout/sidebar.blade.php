@@ -93,13 +93,13 @@
                         </a>
                         <ul class="menu-inner">
                               <li class="menu-item">
-                                <a class="menu-link" href="{{route('add.agent')}}">
+                                <a class="menu-link" href="{{route('create.property')}}">
                                     <span class="menu-label">Add property</span>
                                 </a>
                             </li>
                         </ul>
                     </li>
-                    
+
                     <li class="menu-item">
                         <a class="menu-link" href="calendar.html">
                             <i class="icon-calendar-days"></i>

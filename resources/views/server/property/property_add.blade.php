@@ -1,5 +1,41 @@
 @extends('server.layout.master')
 @section('contain')
+    <style>
+        .image-box {
+            position: relative;
+            width: 80px;
+            height: 80px;
+            flex: 0 0 auto;
+        }
+
+        .image-box img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 6px;
+            border: 1px solid #ddd;
+        }
+
+        .remove-image {
+            position: absolute;
+            top: -6px;
+            right: -6px;
+            width: 20px;
+            height: 20px;
+            border: none;
+            border-radius: 50%;
+            background: #dc3545;
+            color: #fff;
+            font-size: 14px;
+            cursor: pointer;
+            line-height: 20px;
+            padding: 0;
+        }
+
+        .remove-image:hover {
+            background: #bb2d3b;
+        }
+    </style>
     <main class="app-wrapper">
 
         <div class="container-fluid">
@@ -25,7 +61,6 @@
             <form action="" method="POST" enctype="multipart/form-data">
 
                 <div class="row">
-
                     <div class="col-xxl-3 col-md-3 col-lg-3">
                         <div class="card h-auto">
                             <div class="card-header border-0 pb-0">
@@ -34,25 +69,24 @@
 
                             <div class="card-body">
 
-                                <div class="border rounded p-3 text-center mb-3">
+                                <div class="border rounded p-3">
 
-                                    <div id="previewContainer" class="row g-2">
+                                    <div id="previewContainer" class="row g-3">
 
-                                        <div class="col-12">
-                                            <img src="{{ asset('assets/images/icons/picture.png') }}" id="defaultImage"
-                                                class="img-fluid" style="max-height:120px;">
+                                        <div class="col-12 col-md-6" id="defaultBox">
+                                            <img src="{{ asset('assets/images/icons/picture.png') }}" class="img-fluid"
+                                                style="max-height:120px;">
                                         </div>
 
                                     </div>
 
                                 </div>
 
-                                <small class="text-muted">
+                                <small class="text-muted d-block mt-2">
                                     JPG, PNG, WEBP (Multiple Images)
                                 </small>
 
-                                <input type="file" id="propertyImages" name="images[]" class="d-none" accept="image/*"
-                                    multiple>
+                                <input type="file" id="propertyImages" class="d-none" accept="image/*" multiple>
 
                                 <label for="propertyImages" class="btn btn-success w-100 mt-3">
                                     Upload Images
@@ -60,7 +94,6 @@
 
                             </div>
                         </div>
-
                     </div>
 
                     <div class="col-xxl-9 col-md-9 col-lg-9">
@@ -383,7 +416,7 @@
         });
     </script>
     {{-- Image uplod --}}
-    <script>
+    {{-- <script>
         const input = document.getElementById('propertyImages');
         const previewContainer = document.getElementById('previewContainer');
 
@@ -419,6 +452,74 @@
 
             });
 
+        });
+    </script> --}}
+
+    <script>
+        let dt = new DataTransfer();
+
+        const input = document.getElementById('propertyImages');
+        const preview = document.getElementById('previewContainer');
+        const defaultBox = document.getElementById('defaultBox');
+
+        input.addEventListener('change', function(e) {
+
+            Array.from(this.files).forEach(file => {
+
+                dt.items.add(file);
+
+                const reader = new FileReader();
+
+                reader.onload = function(event) {
+
+                    if (defaultBox) {
+                        defaultBox.style.display = "none";
+                    }
+
+                    const col = document.createElement('div');
+                    col.className = "col-md-4 image-item";
+
+                    col.innerHTML = `
+                <div class="image-box">
+                    <img src="${event.target.result}">
+                    <button type="button" class="remove-image">&times;</button>
+                </div>
+            `;
+
+                    preview.appendChild(col);
+
+                    col.querySelector(".remove-image").addEventListener("click", function() {
+
+                        let newDt = new DataTransfer();
+
+                        Array.from(dt.files).forEach(f => {
+                            if (!(f.name === file.name &&
+                                    f.size === file.size &&
+                                    f.lastModified === file.lastModified)) {
+                                newDt.items.add(f);
+                            }
+                        });
+
+                        dt = newDt;
+                        input.files = dt.files;
+
+                        col.remove();
+
+                        if (preview.querySelectorAll(".image-item").length == 0) {
+                            defaultBox.style.display = "block";
+                        }
+
+                    });
+
+                };
+
+                reader.readAsDataURL(file);
+
+            });
+
+            input.files = dt.files;
+
+            input.value = "";
         });
     </script>
 @endsection
