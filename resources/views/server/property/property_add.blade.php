@@ -58,7 +58,8 @@
                     Save Agent
                 </button>
             </div>
-            <form action="" method="POST" enctype="multipart/form-data">
+            <form action="{{ route('store.property') }}" method="POST" enctype="multipart/form-data">
+                @csrf
 
                 <div class="row">
                     <div class="col-xxl-3 col-md-3 col-lg-3">
@@ -86,7 +87,8 @@
                                     JPG, PNG, WEBP (Multiple Images)
                                 </small>
 
-                                <input type="file" id="propertyImages" class="d-none" accept="image/*" multiple>
+                                <input type="file" id="propertyImages" name="images[]" class="d-none" accept="image/*"
+                                    multiple>
 
                                 <label for="propertyImages" class="btn btn-success w-100 mt-3">
                                     Upload Images

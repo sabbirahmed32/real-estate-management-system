@@ -7,7 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 class property extends Model
 {
         protected $fillable = [
-
+            
+        'image',
         'agent_id',
         'title',
         'slug',

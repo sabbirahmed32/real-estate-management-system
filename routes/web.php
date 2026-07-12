@@ -34,3 +34,5 @@ Route::get('/agent/profile', [AgentsController::class, 'agentProfile'])->name('a
 
 // Property
 Route::get('/create-property', [PropertyController::class, 'createProperty'])->name('create.property');
+Route::get('/properties', [PropertyController::class,'index'])->name('properties.index');
+Route::post('/property/store', [PropertyController::class, 'storeProperty'])->name('store.property');

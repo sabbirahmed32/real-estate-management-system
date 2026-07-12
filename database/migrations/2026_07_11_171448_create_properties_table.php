@@ -17,7 +17,7 @@ return new class extends Migration
                   $table->foreignId('agent_id')
                   ->constrained('agents')
                   ->cascadeOnDelete();
-
+            $table->string('image');
             $table->string('title');
             $table->string('slug')->unique();
 
