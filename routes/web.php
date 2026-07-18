@@ -8,7 +8,7 @@ use App\Http\Controllers\Server\PropertyController;
 
 Route::get('/', [frontentController::class, 'index'])->name('index.data');
 Route::get('/about', [frontentController::class, 'about'])->name('about.data');
-Route::get('/properties', [frontentController::class, 'properties'])->name('properties.data');
+Route::get('/properties', [frontentController::class, 'properties'])->name('properti-data');
 Route::get('/properties-details', [frontentController::class, 'propertiesDetails'])->name('properties.details');
 Route::get('/services', [frontentController::class, 'services'])->name('services.data');
 Route::get('/services-details', [frontentController::class, 'servicesDetails'])->name('services.details');
@@ -34,5 +34,5 @@ Route::get('/agent/profile', [AgentsController::class, 'agentProfile'])->name('a
 
 // Property
 Route::get('/create-property', [PropertyController::class, 'createProperty'])->name('create.property');
-Route::get('/properties', [PropertyController::class,'index'])->name('properties.index');
+Route::get('/properties/list', [PropertyController::class,'index'])->name('properties.index');
 Route::post('/property/store', [PropertyController::class, 'storeProperty'])->name('store.property');

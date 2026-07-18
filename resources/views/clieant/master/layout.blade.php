@@ -49,7 +49,7 @@
           <li><a href="{{route('about.data')}}">About</a></li>
           <li class="dropdown"><a href="#"><span>Properties</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-            <li><a href="{{route('properties.data')}}">Properties</a></li>
+            <li><a href="{{route('properti-data')}}">Properties</a></li>
             <li><a href="{{route('properties.details')}}">Property Details</a></li>
             </ul>
           </li>

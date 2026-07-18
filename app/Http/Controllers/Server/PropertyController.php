@@ -20,7 +20,7 @@ class PropertyController extends Controller
 
     public function storeProperty(Request $request)
     {
-        dd($request->all());
+        // dd($request->all());
         $request->validate([
             'title' => 'required|string|max:255',
             'agent_id' => 'required|exists:agents,id',
